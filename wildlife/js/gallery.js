@@ -126,7 +126,7 @@ function openImage(imageToOpen){
     
     overlayWrap[0].style.display = 'block';
     galleryImageWrap.style.background = 'url(' + imageToOpen + ') no-repeat 50%';
-    galleryImageWrap.style.background-size = "contain";
+    galleryImageWrap.style.backgroundSize = "contain";
 }
 function closeOverlay() {
     var overlayWrap = document.getElementsByClassName('overlayWrap');
