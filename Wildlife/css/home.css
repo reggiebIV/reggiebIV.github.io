@@ -1,0 +1,26 @@
+video#homeHeadBackgroundVideo { 
+    position: fixed;
+    top: 55%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url(polina.jpg) no-repeat;
+    background-size: cover; 
+}
+#homeVidOverlay{
+    position:absolute;
+    float:left;
+    width:100%;
+    min-height:100%;
+    background-color:#fff;
+    top:82px;
+    left:0;
+    opacity:.3;
+}

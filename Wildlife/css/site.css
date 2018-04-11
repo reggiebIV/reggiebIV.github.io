@@ -1,0 +1,63 @@
+@font-face {
+    font-family: OstrichSans;
+    font-weight: 200;
+    src: url("/fonts/OstrichSans-Light.otf") format("opentype");
+}
+@font-face {
+    font-family: OstrichSans;
+    font-weight: 300;
+    src: url("/fonts/OstrichSans-Medium.otf") format("opentype");
+}
+@font-face {
+    font-family: OstrichSans;
+    font-weight: 400;
+    src: url("/fonts/OstrichSans-Heavy.otf") format("opentype");
+}
+@font-face {
+    font-family: OstrichSans;
+    font-weight: 600;
+    src: url("/fonts/OstrichSans-Bold.otf") format("opentype");
+}
+@font-face {
+    font-family: OstrichSans;
+    font-weight: 800;
+    src: url("/fonts/OstrichSans-Black.otf") format("opentype");
+}
+@font-face {
+    font-family: OstrichSansRounded;
+    src: url("/fonts/OstrichSansRounded-Medium.otf") format("opentype");
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+body {
+    margin: 0;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float:right;
+    margin-right: 50px
+}
+li {
+    float: left;
+}
+
+a {
+    display: block;
+    padding: 8px 30px;
+    font-family: OstrichSans;
+    font-weight:800;
+    text-decoration:none;
+    color:#fff;
+    font-size:30px;
+}
+.menuWrap {
+    width: 100%;
+    background: #293038;
+    padding: 15px 10px;    
+    box-sizing: border-box;
+}
