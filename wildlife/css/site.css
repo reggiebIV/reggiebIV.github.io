@@ -61,3 +61,7 @@ a {
     padding: 15px 10px;    
     box-sizing: border-box;
 }
+.headerSection {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
