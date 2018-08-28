@@ -64,6 +64,7 @@ a {
 .headerSection {
     background-repeat: no-repeat;
     background-size: cover;
+    min-height: 800px;
 }
 .bodyInnerWrap {
     width: 50%;
@@ -72,4 +73,5 @@ a {
     margin: auto;
     font-family: arial, sans-serif;
     font-size: 20px;
+    padding: 50px 0;
 }
