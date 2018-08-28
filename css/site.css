@@ -1,31 +1,31 @@
 @font-face {
     font-family: OstrichSans;
     font-weight: 200;
-    src: url("/wildlife/fonts/OstrichSans-Light.otf") format("opentype");
+    src: url("/fonts/OstrichSans-Light.otf") format("opentype");
 }
 @font-face {
     font-family: OstrichSans;
     font-weight: 300;
-    src: url("/wildlife/fonts/OstrichSans-Medium.otf") format("opentype");
+    src: url("/fonts/OstrichSans-Medium.otf") format("opentype");
 }
 @font-face {
     font-family: OstrichSans;
     font-weight: 400;
-    src: url("/wildlife/fonts/OstrichSans-Heavy.otf") format("opentype");
+    src: url("/fonts/OstrichSans-Heavy.otf") format("opentype");
 }
 @font-face {
     font-family: OstrichSans;
     font-weight: 600;
-    src: url("/wildlife/fonts/OstrichSans-Bold.otf") format("opentype");
+    src: url("/fonts/OstrichSans-Bold.otf") format("opentype");
 }
 @font-face {
     font-family: OstrichSans;
     font-weight: 800;
-    src: url("/wildlife/fonts/OstrichSans-Black.otf") format("opentype");
+    src: url("/fonts/OstrichSans-Black.otf") format("opentype");
 }
 @font-face {
     font-family: OstrichSansRounded;
-    src: url("/wildlife/fonts/OstrichSansRounded-Medium.otf") format("opentype");
+    src: url("/fonts/OstrichSansRounded-Medium.otf") format("opentype");
 }
 .clearfix::after {
     content: "";
