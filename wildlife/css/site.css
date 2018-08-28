@@ -65,3 +65,11 @@ a {
     background-repeat: no-repeat;
     background-size: cover;
 }
+.bodyInnerWrap {
+    width: 50%;
+    min-width: 500px;
+    max-width: 1000px;
+    margin: auto;
+    font-family: arial, sans-serif;
+    font-size: 20px;
+}
