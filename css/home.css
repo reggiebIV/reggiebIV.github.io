@@ -23,6 +23,10 @@ video#homeHeadBackgroundVideo {
     left:0;
     opacity:.3;
 }
+.menuWrap {    
+    position: fixed;
+    z-index: 111111;
+}
 .story {
     cursor: pointer;
 }

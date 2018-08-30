@@ -61,8 +61,6 @@ div { box-sizing: border-box; }
     background: #293038;
     padding: 15px 10px;    
     box-sizing: border-box;
-    position: fixed;
-    z-index: 111111;
 }
 .headerSection {
     background-repeat: no-repeat;
