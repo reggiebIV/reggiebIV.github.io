@@ -181,6 +181,14 @@ label::after {
         -webkit-column-count: 2;
         column-count:         2;
     }
+    #galleryFilterWrap > button {
+        position:relative;
+        left:auto;
+        top:auto;
+    }
+    .filters > label {
+        font-size:25px;
+    }
 }
 @media (max-width: 400px) {
     #galleryInnerWrap {

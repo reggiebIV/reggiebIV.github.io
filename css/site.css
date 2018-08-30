@@ -55,6 +55,7 @@ a {
     color:#fff;
     font-size:30px;
 }
+div { box-sizing: border-box; }
 .menuWrap {
     width: 100%;
     background: #293038;
@@ -74,4 +75,10 @@ a {
     font-family: arial, sans-serif;
     font-size: 20px;
     padding: 50px 0;
+}
+@media (max-width: 800px)
+{
+    a {
+        padding: 8px 20px;
+    }
 }

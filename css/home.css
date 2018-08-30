@@ -24,3 +24,36 @@ video#homeHeadBackgroundVideo {
     left:0;
     opacity:.3;
 }
+.story h1 {
+    margin: auto;
+    font-family: 'Oswald', arial, sans-serif;
+    font-weight: 300;
+    letter-spacing: 1.8;
+    font-size: 60px;
+    color: #fff
+}
+.story h2 {
+    margin: auto;
+    font-family: serif;
+    letter-spacing: .9;
+    font-size: 28px;
+    color: #fff;
+    font-weight: 400;
+    font-style: italic;
+}
+.storyInnerWrap {
+    width:60%;
+    margin: auto;
+    text-align: center;
+    padding:500px 100px;
+}
+#seaDogs {
+    background: linear-gradient( rgba(0,0,0,.5), rgba(0,0,0,.5)), url(/Images/backgrounds/seaDog.jpg);
+    background-size:cover;
+}
+@media (max-width: 800px) {
+    video#homeHeadBackgroundVideo {
+        left:100%;
+        top:70%;
+    }
+}

@@ -1,0 +1,87 @@
+.storyHeader {
+    padding: 39vh 0;
+    text-align: center;
+}
+.story h1 {
+    margin: auto;
+    font-family: 'Oswald', arial, sans-serif;
+    font-weight: 300;
+    letter-spacing: 1.8;
+    font-size: 80px;
+    color: #fff
+}
+.story h2 {
+    margin: auto;
+    font-family: serif;
+    letter-spacing: .9;
+    font-size: 28px;
+    color: #fff;
+    font-weight: 400;
+    font-style: italic;
+}
+.story h3 {
+    margin: auto;
+    font-family: 'Oswald', arial, sans-serif;
+    font-size: 40px;
+    font-weight:400;
+    margin-bottom: 10px;
+}
+.storyInnerWrap {
+    width:60%;
+    margin: auto;
+    text-align: center;
+    padding:500px 100px;
+}
+.storySection {
+    font-family: arial, sans-serif;
+    font-size: 18px;
+    padding: 55px 25vw;
+}
+#seaDogHead {
+    background: linear-gradient( rgba(0,0,0,.5), rgba(0,0,0,.5)), url(/Images/backgrounds/seaDog.jpg);
+    background-size:cover;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+.fullWidth {
+    width: 100%;
+    height: 900px;
+}
+#seaDogsBlock2 {
+    background: url(/Images/blogPosts/SiteThumbs%2009.jpg);
+    background-size: cover;
+    background-position-y: center;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+    flex: 50%;
+    max-width: 50%;
+    padding: 0 4px;
+}
+#seaDogsBlock3 .seaDogsBlock3Left {
+    flex: 55%;
+    max-width: 55%
+}
+#seaDogsBlock3 .seaDogsBlock3Right {
+    flex: 45%;
+    max-width: 45%
+}
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
