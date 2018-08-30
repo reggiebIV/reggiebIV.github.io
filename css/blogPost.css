@@ -41,6 +41,10 @@
     background: linear-gradient( rgba(0,0,0,.5), rgba(0,0,0,.5)), url(/Images/backgrounds/seaDog.jpg);
     background-size:cover;
 }
+#redWolfHead {
+    background: linear-gradient( rgba(0,0,0,.5), rgba(0,0,0,.5)), url(/Images/backgrounds/redWolf.jpg);
+    background-size:cover;
+}
 .row {
     display: flex;
     flex-wrap: wrap;

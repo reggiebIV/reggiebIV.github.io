@@ -50,5 +50,5 @@ function setSeaDogDesign() {
             shortHeight = thisHeight
         }   
     }
-    document.getElementById('seaDogsBlock3').style.height = shortHeight + 'px';
+    document.getElementById('seaDogsBlock3').style.height = shortHeight + 'px';   
 }
