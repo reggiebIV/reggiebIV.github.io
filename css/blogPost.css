@@ -84,8 +84,11 @@
 }
 
 @media screen and (max-width: 600px) {
-  .column {
-    flex: 100%;
-    max-width: 100%;
-  }
+    .column { flex: 100%; max-width: 100%; }
+    .storySection { padding: 55px 15px; }
+    #seaDogsBlock2 {
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 210px;
+    }
 }
