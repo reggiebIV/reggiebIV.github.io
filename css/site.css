@@ -79,5 +79,10 @@ div { box-sizing: border-box; }
 @media (max-width: 800px)
 {
     a { padding: 8px 20px; }
-    .bodyInnerWrap { width: 100%; padding: 50px; font-size: 30px; }
+    .bodyInnerWrap {
+        width: 100%;
+        padding: 50px;
+        font-size: 26px;
+        min-width: initial;
+    }
 }
