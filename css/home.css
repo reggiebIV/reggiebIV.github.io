@@ -66,9 +66,6 @@ video#homeHeadBackgroundVideo {
     #seaDogs { background-position-x: -204px; }
     div#redWolves { background-position-x: -1340px; }
     video#homeHeadBackgroundVideo { left:100%; top:75%; }
-    .topMenu {
-        float: none;
-        width: 90%;
-        margin: auto;
-    }
+    .storyInnerWrap { width: 90%; }
+    .topMenu { float: none; width: 90%; margin: auto; }
 }
