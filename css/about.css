@@ -2,5 +2,5 @@
     background-image: url(//raw.githubusercontent.com/reggiebIV/reggiebIV.github.io/master/Images/backgrounds/about-bg.jpg)
 }
 @media (max-width: 800px) {
-    div#aboutHeader { background-position-x: -600px; }
+    div#aboutHeader { background-position-x: -1090px; }
 }
